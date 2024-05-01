@@ -7,7 +7,8 @@ import { ToastContainer } from "react-toastify";
 import RoomPage from "./pages/RoomPage";
 import { useEffect, useRef ,  useState } from 'react';
 
-const server = "http://localhost:5000";
+// const server = "http://localhost:5000";
+const server = "https://white-board-5jqh-backend.vercel.app";
 const connectionOptions = {
   "force new connection" : true,
   reconnectionAttempts: "Infinity",
