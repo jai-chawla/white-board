@@ -69,8 +69,8 @@ const RoomPage = ({user , socket , users}) => {
                     </div>
                 )
              }
-            <h1 className="text-center pt-4  py-4">White board sharing app {" "}
-            <span className="text-primary"> [Users Online : {users.length}]</span></h1>
+            <h1 className="text-center pt-4  py-4">White board {" "}
+            <span className="text-primary"> [Users Online : 2]</span></h1>
             {
                 user?.presenter && (
                     <div className="col-md-10 mx-auto gap-3 px-5 mb-3 d-flex align-items-center justify-content-between">
